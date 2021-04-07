@@ -41,7 +41,7 @@ app.get("/contact" , (req,res)=>{
 
 app.get("*" , (req,res)=>{
     res.render('404error page',{
-        errorMSG:'Opps! Page Fote Found'
+        errorMSG:'Opps! Page Fote Found , Go Back'
     });
 })
 
